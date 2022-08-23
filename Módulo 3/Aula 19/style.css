@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('/Módulo 3/Aula 19/imagens/wallpaper001.jpg');
+    text-align: center;
+    margin: auto;
+}
+
+div.quadrado {
+    display: inline-block;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;    
+}
+ 
+
+div#q1 {
+    background-image: url('/Módulo 3/Aula 19/imagens/pattern001.png');
+}
+div#q2 {
+    background-image: url('/Módulo 3/Aula 19/imagens/pattern002.png');
+}
+div#q3 {
+    background-image: url('/Módulo 3/Aula 19/imagens/pattern003.png');
+}
