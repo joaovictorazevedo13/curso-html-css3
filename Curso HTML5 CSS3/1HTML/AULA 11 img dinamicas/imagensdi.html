@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinâmica</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Imagem irá mudar conforme o tamanho da tela desejada pelo usuário</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="fotogrande"> 
+    </picture>
+    <h1>Reproduzindo aúdio</h1>
+    <audio preload="none" controls loop>
+        <source src="midia/hiphop.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir o audio. <a href="midia/hiphop.mp3" download="midia/hiphop.mp3">Clique aqui para baixar o arquivo</a></p>
+    </audio>
+
+</body>
+</html>

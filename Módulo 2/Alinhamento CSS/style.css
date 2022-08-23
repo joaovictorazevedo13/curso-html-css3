@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(31, 154, 31, 0.657);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: green;
+}
+h1#princ {
+    color: white;
+    background-color: rgba(1, 154, 1, 0.874);
+    text-align:center
+}
+h2 {
+    color: rgb(148, 217, 44);
+    font-weight: 200;
+    text-shadow: 1px 1px 1px black;
+}
+.avancado {
+    color: red;
+}
