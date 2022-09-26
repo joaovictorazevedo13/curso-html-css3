@@ -23,7 +23,7 @@ main {
     transform: translate(-100%, 0%);
 }
 
-#main2 {
+#main2 {    
     position: relative;
     background-color: rgba(157, 201, 13, 0.703) ;
     max-width: 300px;
